@@ -6,7 +6,7 @@ type MemoType = {
   [n: number]: number;
 };
 
-const fibonacciMemoized = (x: number) => {
+const fibonacciMemoized = (x: number): number => {
   const memo: MemoType = {};
 
   const fibonacci = (n: number) => {
