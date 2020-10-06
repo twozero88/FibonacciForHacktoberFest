@@ -2,7 +2,7 @@
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/twozero88/FibonacciForHacktoberFest)
 [![GitHub contributors](https://img.shields.io/github/contributors/twozero88/FibonacciForHacktoberFest)](https://GitHub.com/twozero88/FibonacciForHacktoberFest/graphs/contributors/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat)]()
-### Implement Fibonacci series upto Nth Term in language and method of your choice. Be as creative as you can
+### Implement Fibonacci series to get first 10 Term in language and method of your choice. Be as creative as you can
 
 <a href="https://hacktoberfest.digitalocean.com/"><img src="https://miro.medium.com/max/3712/1*gdoVCWmZjsLewDEAiqk5qA.png" width="600" alt="Hacktoberfest 2020"/></a>
 ## My Top 5 Solutions:
