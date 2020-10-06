@@ -1,3 +1,7 @@
+// Function to print Fibonnaci series of a number
+// [Language used] - TypeScript v4.0.2
+// Author: @tonyjmartinez
+
 type MemoType = {
   [n: number]: number;
 };
