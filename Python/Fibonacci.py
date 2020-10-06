@@ -5,7 +5,7 @@ def fibonacci(iterations):
         print(x, end=' ')
         z = x
         x = y
-        y = z + y
+        y += z
 
 if __name__ == '__main__':
     try:
