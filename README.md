@@ -17,6 +17,7 @@ Just [![GitHub stars](https://img.shields.io/github/stars/twozero88/FibonacciFor
 1. Fork the Repo. [![GitHub forks](https://img.shields.io/github/forks/twozero88/FibonacciForHacktoberFest?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/twozero88/FibonacciForHacktoberFest/network/)
 2. Clone it to your local machine.
 3. Make changes.
+- If your language Folder does not exist, Make one, put your file in it and then push.
 4. Push.
 5. Submit a Pull Request.
 
