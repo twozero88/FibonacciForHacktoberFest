@@ -1,20 +1,18 @@
 const fibonacciNumbers = [];
 
 const fibonacci = (theN, theIndex, theMessage) => {
-    let n = theN;
+    const n = theN - 1;
     let message = theMessage || `Fibonacci sequence of ${n} terms is: 0,1`;
     
-    n -= 1;
-
     if (n <= 1) {
         return message;
     }
     
-    if (fibonacciNumbers.length < 2) {
+    const index = theIndex || 1;
+
+    if (!theIndex) {
         fibonacciNumbers.push(0, 1);
     }
-
-    let index = theIndex || 1;
 
     sum = fibonacciNumbers[index] + fibonacciNumbers[index - 1];
     fibonacciNumbers.push(sum);
