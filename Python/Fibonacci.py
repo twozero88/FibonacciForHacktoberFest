@@ -7,13 +7,13 @@ def fibonacci(iterations):
         x = y
         y += z
 
-if __name__ == '__main__':
-    try:
-        terms = int(input("Enter number of terms: "))
-        if terms < 1:
-            raise ValueError
-        else:
-            fibonacci(terms)
 
-    except ValueError:
-        print("Please enter in proper values next time.")
+try:
+    terms = int(input("Enter number of terms: "))
+    if terms < 1:
+        raise ValueError
+    else:
+        fibonacci(terms)
+
+except ValueError:
+    print("Please enter in proper values next time.")
