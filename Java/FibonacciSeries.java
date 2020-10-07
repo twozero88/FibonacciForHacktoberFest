@@ -2,9 +2,8 @@
  * Recursive implementation of 
  * Fibonacci Series
 */
-import java.util.Scanner;
 
-class FibonacciSeries {
+public class FibonacciSeries {
   
     // method to print the series 
     static int fib(int n) { 
@@ -19,11 +18,9 @@ class FibonacciSeries {
   
     // main method 
     public static void main(String args[]){
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-                
+        
         // N series 
-        int N = input.nextInt(); 
+        int N = 10; 
   
         // Print the first N numbers 
         for (int i = 0; i < N; i++) {
