@@ -1,10 +1,8 @@
 def main():
-  nth_term = int(input("How many Fibonacci Terms would you like? "))
-
-  print_fib(nth_term)
+  print_fib()
 
 
-def print_fib(num):
+def print_fib(num=10):
   n1 = 0
   n2 = 1
   counter = 1
