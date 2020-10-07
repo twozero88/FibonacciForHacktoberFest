@@ -17,8 +17,8 @@ namespace FibonacciSeries
         //Function for displaying the output
         public static void Main(string[] args)
         {
-            Console.Write("Enter the length of the Fibonacci Series: ");
-            int length = Convert.ToInt32(Console.ReadLine());//takes the input for numbers f terms
+            Console.Write("First 10 terms of Fibonacci Series: ")
+            int length = 10;//takes length as 10
             for (int i = 0; i < length; i++)
             {
                 Console.Write("{0} ", FibonacciSeries(i));//displays the output

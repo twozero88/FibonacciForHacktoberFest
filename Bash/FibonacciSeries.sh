@@ -2,15 +2,14 @@
 #[Language used]- Bash
 #Author- @PrithirajN
 
-#Takes the length of the desired Fibonacci Series
-echo "Enter the length of thr Fibonacci Series: "
-read n #input
+#Taking the length of the series to 10
+let n=10
 
-echo -n "0 1"
-fibo[0]=0 #returns the first term
-fibo[1]=1 #returns the second term
+fibo[0]=0 #setting the first term to 0
+fibo[1]=1 #setting the second term to 1
 fibo[$n]=0
 
+echo "Fibonacci Series upto first 10 terms"
 #Loop to return the series upto 'n' no. of terms
 for ((i=2; i<n; i++))
 do
