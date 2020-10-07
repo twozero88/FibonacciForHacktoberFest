@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 
 namespace FibonnaciFunction
 {
@@ -6,15 +7,20 @@ namespace FibonnaciFunction
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Fibonnaci Function Writer");
 
-            fibonnaciMethod(10);
+            Console.Write("Please give me a number: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            fibonnaciMethod(n);
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
 
         static public void fibonnaciMethod(int length)
         {
             int n = 0, n1 = 1, n2 = 0;
-            Console.WriteLine("{0} {1}", n, n1);
+            Console.Write("{0} {1}", n, n1);
 
             for (int i = 0; i < length; i++)
             {
@@ -23,6 +29,7 @@ namespace FibonnaciFunction
                 n = n1;
                 n1 = n2;
             }
+            Console.WriteLine();
         }
     }
 }
