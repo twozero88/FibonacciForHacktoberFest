@@ -24,8 +24,6 @@ def fibonacci(n):
 
 
 #CODE RUNNING
-number = int(input("Insert a positive number: "))
-fibonacci(number) #evaluating all terms. 'listFib' will holding the series
-print(f'Number of terms: {number}')
-for x in range(number):
-        print(listFib[x], end=' ')
+fibonacci(9) #evaluating all terms. 'listFib' will holding the series. 9 because the first term begin in 0
+for x in listFib:
+        print(x, end=' ')
