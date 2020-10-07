@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
 
 <?php   
 // PHP code to get the Fibonacci series 
@@ -25,6 +22,3 @@ for ($counter = 0; $counter < $number; $counter++){
     echo Fibonacci($counter),' '; 
 } 
 ?> 
-
-</body>
-</html>
