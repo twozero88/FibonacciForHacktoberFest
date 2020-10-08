@@ -7,8 +7,7 @@ first=0
 second=1
 nextterm=0
 
-puts "Enter the number of terms:-"
-n=gets.chomp.to_i
+n=10
 
 puts "The first #{n} terms of Fibonacci series are:-"
 c=1
